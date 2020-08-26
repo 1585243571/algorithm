@@ -35,7 +35,14 @@ void swap(int &a, int &b)
 	a = b;
 	b = tmp;
 }
-// 返回值的意义　true 表示没有交换，false表示进行了交换
+/**
+ * @brief  用于冒泡排序的升序操作
+ * 
+ * @param first 
+ * @param second 
+ * @return true 表示没有进行交换操作
+ * @return false 表示有进行交换操作
+ */
 bool up_type(int &first, int &second)
 {
 	if (first <= second)
